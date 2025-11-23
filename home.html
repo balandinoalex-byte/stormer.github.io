@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 <title>JS Test</title>
 <style>
+.container {
+  touch-action: pan-y;
+}
+
 body{
 width:100%;
 padding:30px;
@@ -22,6 +27,7 @@ padding:10px;
 </style>
 </head>
 <body>
+<div class="container">
 <header>
 <div id="app">Good program coming soon</div>
 <a href="index.html">index</a>
@@ -34,5 +40,6 @@ padding:10px;
 <footer>
 By Stormer250
 </footer>
+</div>
 </body>
 </html>
