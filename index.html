@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 <style>
+.container {
+  touch-action: pan-y;
+}
+
     body{
 width:100%;
 padding:30px;
@@ -20,6 +25,7 @@ padding:10px;
 </style>
 </head>
 <body>
+<div class="container">
 <header>
 <div id="app">Good program coming soon</div>
 <a href="home.html">Home</a>
@@ -29,6 +35,9 @@ padding:10px;
 <div id="content">Loading...</div>
 </article>
 </main>
+<footer>
+By Stormer250
+</footer>
   
 </body>
 </html>
